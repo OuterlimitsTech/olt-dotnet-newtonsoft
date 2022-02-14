@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Description>
+			Type Converts, Extensions, etc. utilizing Newtonsoft.Json
+		</Description>
+		<PackageTags>serialization;json;newtonsoft</PackageTags>
+		<ProjectGuid>10affa89-ebef-499a-8f48-ff59f8fe9878</ProjectGuid>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+
+
+</Project>
