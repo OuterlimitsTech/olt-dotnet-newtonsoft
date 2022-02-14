@@ -5,7 +5,7 @@
 		<Description>
 			Type Converts, Extensions, etc. utilizing Newtonsoft.Json
 		</Description>
-		<PackageTags>serialization;json;newtonsoft</PackageTags>
+		<PackageTags>Serialization;Json;Newtonsoft</PackageTags>
 		<ProjectGuid>10affa89-ebef-499a-8f48-ff59f8fe9878</ProjectGuid>
 	</PropertyGroup>
 
