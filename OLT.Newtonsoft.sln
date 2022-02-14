@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OLT.Serialization.Json.Newtonsoft", "src\OLT.Serialization.Json.Newtonsoft\OLT.Serialization.Json.Newtonsoft.csproj", "{E500E8FF-5A56-4001-AEC6-19361661244B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLT.Serialization.Json.Newtonsoft", "OLT.Serialization.Json.Newtonsoft", "{68DF231A-ED13-4F10-B3E0-AB8ED38C1FF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OLT.Serialization.Json.Newtonsoft.Tests", "tests\OLT.Serialization.Json.Newtonsoft.Tests\OLT.Serialization.Json.Newtonsoft.Tests.csproj", "{78D3AC0B-2E27-4D6F-AE12-E6181FC7C293}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".workflows", ".workflows", "{0BCB84BC-8C39-4581-9B25-A037254EC206}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E500E8FF-5A56-4001-AEC6-19361661244B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E500E8FF-5A56-4001-AEC6-19361661244B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E500E8FF-5A56-4001-AEC6-19361661244B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E500E8FF-5A56-4001-AEC6-19361661244B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D3AC0B-2E27-4D6F-AE12-E6181FC7C293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D3AC0B-2E27-4D6F-AE12-E6181FC7C293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D3AC0B-2E27-4D6F-AE12-E6181FC7C293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D3AC0B-2E27-4D6F-AE12-E6181FC7C293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E500E8FF-5A56-4001-AEC6-19361661244B} = {68DF231A-ED13-4F10-B3E0-AB8ED38C1FF7}
+		{78D3AC0B-2E27-4D6F-AE12-E6181FC7C293} = {68DF231A-ED13-4F10-B3E0-AB8ED38C1FF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52FF3A40-3993-42A7-9363-1908DB6858D1}
+	EndGlobalSection
+EndGlobal
