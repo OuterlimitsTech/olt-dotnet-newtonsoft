@@ -23,4 +23,13 @@ namespace OLT.Serialization.Json.Newtonsoft
         }
     }
 
+
+    public class OltOnlyDateConverter2 : IsoDateTimeConverter
+    {
+        public OltOnlyDateConverter2()
+        {
+            DateTimeFormat = "yyyy-MM-dd";
+        }
+    }
+
 }
