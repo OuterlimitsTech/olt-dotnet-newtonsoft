@@ -1,10 +1,10 @@
 name: CI
 on:
-  # push:
-  #   branches:
-  #     - master
-  #     # - release/**
-  #     # - feature/**
+  push:
+    branches:
+      - master
+      # - release/**
+      # - feature/**
   workflow_dispatch:
     branches:
       - master
