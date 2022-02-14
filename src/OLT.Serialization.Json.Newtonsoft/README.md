@@ -4,10 +4,11 @@
 
 ## [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/) TypeCoverter, JsonConvert, & other classes targeting Netwonsoft.
 
-| Utility/Item/Object                             | Description                               | Comments                                                                     |
-| ----------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------- |
-| [OltEnumRouteConverter](#OltEnumRouteConverter) | Serialization of Enum in route parameters | [See Also](https://github.com/dotnet/aspnetcore/issues/4008)                 |
-| [OltOnlyDateConverter](#OltOnlyDateConverter)   | Serialization of DateTime to yyyy-MM-dd   | This allows for tranforming the time to the client timezone for the consumer |
+| Utility/Item/Object                             | Description                               | Comments                                                                               |
+| ----------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------- |
+| [OltEnumRouteConverter](#OltEnumRouteConverter) | Serialization of Enum in route parameters | [See Also](https://github.com/dotnet/aspnetcore/issues/4008)                           |
+| [OltOnlyDateConverter](#OltOnlyDateConverter)   | Serialization of DateTime to yyyy-MM-dd   | Serializes the date without the time to allow frontend to parse into current timezones |
+|  |
 
 ### OltEnumRouteConverter - TypeConverter
 
