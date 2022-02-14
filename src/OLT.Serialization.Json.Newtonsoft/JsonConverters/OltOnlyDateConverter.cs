@@ -22,4 +22,5 @@ namespace OLT.Serialization.Json.Newtonsoft
             DateTimeFormat = "yyyy-MM-dd";
         }
     }
+
 }
