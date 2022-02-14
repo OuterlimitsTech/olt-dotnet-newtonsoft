@@ -6,7 +6,7 @@ on:
       - "*.*.*"
 env:
   PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}/output
-  SOLUTION_FILE: "OLT.Core.sln"
+  SOLUTION_FILE: "OLT.Newtonsoft.sln"
   NUGET_SOURCE_URL: "https://api.nuget.org/v3/index.json"
 
 jobs:
