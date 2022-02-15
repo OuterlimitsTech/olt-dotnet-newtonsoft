@@ -6,10 +6,8 @@ using Newtonsoft.Json;
 
 namespace OLT.Serialization.Json.Newtonsoft
 {
-
     /// <summary>
     /// Serialization of <see cref="System.Enum"/> in route parameters 
-    /// 
     /// <see href="https://github.com/dotnet/aspnetcore/issues/4008">Code copied from</see>
     /// </summary>
     /// <typeparam name="T"></typeparam>    

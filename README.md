@@ -2,8 +2,8 @@
 
 # OLT Newtonsoft Serialization libaries
 
-## This package will not depend on any other packages!
+[![CI](https://github.com/OuterlimitsTech/olt-dotnet-newtonsoft/actions/workflows/build.yml/badge.svg)](https://github.com/OuterlimitsTech/olt-dotnet-newtonsoft/actions/workflows/build.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OuterlimitsTech_olt-dotnet-newtonsoft&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OuterlimitsTech_olt-dotnet-newtonsoft)
 
-| Library                                                                                | Version                                                                                                                                        |
-| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [OLT.Serialization.Json.Newtonsoft](./src/OLT.Serialization.Json.Newtonsoft/README.md) | [![Nuget](https://img.shields.io/nuget/v/OLT.Serialization.Json.Newtonsoft)](https://www.nuget.org/packages/OLT.Serialization.Json.Newtonsoft) |
+| Library                                                                      | Version                                                                                                                                        |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [OLT.Serialization.Json.Newtonsoft](./src/OLT.Serialization.Json.Newtonsoft) | [![Nuget](https://img.shields.io/nuget/v/OLT.Serialization.Json.Newtonsoft)](https://www.nuget.org/packages/OLT.Serialization.Json.Newtonsoft) |
