@@ -8,9 +8,10 @@ namespace OLT.Serialization.Json.Newtonsoft
     /// <example>
     /// Attribute Usage
     /// <code>
+    /// using Newtonsoft.Json;
     /// public class SampleModel
     /// {
-    ///    [System.Text.Json.Serialization.JsonConverter(typeof(OltOnlyDateConverter))]
+    ///    [JsonConverter(typeof(OltOnlyDateConverter))]
     ///    public DateTime BirthDate { get; set; }
     /// }
     /// </code>
