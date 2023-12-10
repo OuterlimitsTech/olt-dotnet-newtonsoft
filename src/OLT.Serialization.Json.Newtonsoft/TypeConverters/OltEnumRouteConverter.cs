@@ -12,8 +12,8 @@ namespace OLT.Serialization.Json.Newtonsoft
     /// <exception cref="JsonSerializationException"><see cref="System.Runtime.Serialization.EnumMemberAttribute"/> is not present on the value</exception>
     public class OltEnumRouteConverter<T> : TypeConverter
     {
-        public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
-        {
+        public override object? ConvertFrom(ITypeDescriptorContext? context, CultureInfo? culture, object value)
+        {            
             var val = value as string;
             if (string.IsNullOrWhiteSpace(val))
             {
