@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11205.157 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OLT.Serialization.Json.Newtonsoft", "src\OLT.Serialization.Json.Newtonsoft\OLT.Serialization.Json.Newtonsoft.csproj", "{E500E8FF-5A56-4001-AEC6-19361661244B}"
 EndProject
@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".workflows", ".workflows", "{0BCB84BC-8C39-4581-9B25-A037254EC206}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\dependabot.yml = .github\dependabot.yml
 		.config\dotnet-tools.json = .config\dotnet-tools.json
 		.github\workflows\release.yml = .github\workflows\release.yml
 	EndProjectSection
